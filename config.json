@@ -1,0 +1,9 @@
+{
+    "version": "1.0.1",
+    "ai_model": "Qwen-2.5-7B-Instruct",
+    "neon_rgb": false,
+    "log_color": "#449ece",
+    "answer_color": "#ffffff",
+    "border_color": "#7aa2f7",
+    "theme": "dark"
+}

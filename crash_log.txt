@@ -1,0 +1,24 @@
+
+[2026-06-23 02:30:16.296858] КРИТИЧЕСКИЙ СБОЙ СИСТЕМЫ:
+Traceback (most recent call last):
+  File "C:\Users\Nevermore\PycharmProjects\DEMON\main.py", line 242, in <module>
+    class CyberpunkTerminalUI(QWidget):
+  File "C:\Users\Nevermore\PycharmProjects\DEMON\main.py", line 493, in CyberpunkTerminalUI
+    ui = CyberpunkTerminalUI()
+         ^^^^^^^^^^^^^^^^^^^
+NameError: name 'CyberpunkTerminalUI' is not defined
+
+------------------------------------------------------------
+
+[2026-06-23 02:32:27.398440] КРИТИЧЕСКИЙ СБОЙ СИСТЕМЫ:
+Traceback (most recent call last):
+  File "C:\Users\Nevermore\PycharmProjects\DEMON\main.py", line 494, in <module>
+    install_daemon_into_windows()
+  File "C:\Users\Nevermore\PycharmProjects\DEMON\main.py", line 473, in install_daemon_into_windows
+    script_path = os.path.abspath(target_script)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 599, in abspath
+  File "<frozen ntpath>", line 566, in normpath
+TypeError: expected str, bytes or os.PathLike object, not list
+
+------------------------------------------------------------
